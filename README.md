@@ -1,3 +1,5 @@
-# This random user profile generator is using VueJS CDN as the framework.
+# Random User Profile Generator
 
-# Based on Brad Traversy's VueJS crash course
+- This random user profile generator is using VueJS CDN as the framework.
+
+- Based on Brad Traversy's VueJS crash course
