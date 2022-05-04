@@ -8,9 +8,13 @@
     <title>Random User Profile Generator</title>
   </head>
   <body>
+    <header>
+      <h1>Random User Profile Generator</h1>
+      <p>Try clicking the button to get random user profile</p>
+    </header>
     <div id="app">
       <img :class="gender" v-bind:src="picture" :alt="`${firstName} {lastName}`" />
-      <h1>{{firstName}} {{lastName}}</h1>
+      <h2>{{firstName}} {{lastName}}</h2>
       <p>Email: {{email}}</p>
       <button v-on:click="getUser()" :class="gender">Get random user</button>
     </div>
